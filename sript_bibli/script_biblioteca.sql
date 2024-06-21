@@ -6,3 +6,15 @@ create table professor(
     pk int
 );
 
+create table sala(
+numero_sala varchar(255),
+ qtd_aluno int, 
+ pk int
+);
+
+create table turma(
+nome varchar(255),
+pk int
+);
+
+
